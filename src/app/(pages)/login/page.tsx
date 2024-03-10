@@ -13,14 +13,14 @@ export default function page({}: Props) {
           className="flex flex-col items-center justify-center gap-4"
         >
           <input
-            className="w-full border px-2 py-2 rounded-md"
+            className="w-full border px-2 py-2 rounded-md focus:outline-none"
             type="text"
             name="username"
             id="username"
             placeholder="Username"
           />
           <input
-            className="w-full border px-2 py-2 rounded-md"
+            className="w-full border px-2 py-2 rounded-md focus:outline-none"
             type="password"
             name="password"
             id="password"
