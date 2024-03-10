@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "./Layout/Navbar";
+import Footer from "./Layout/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans ${inter.className}`}>{children}</body>
+      <body className={`font-sans ${inter.className}`}>
+        <Navbar/>
+        <div className="min-h-[calc(100vh-10rem)] md:min-h-[calc(100vh-12rem)] mx-auto max-5xl font-sans">{children}</div>
+        <Footer/>
+      </body>
     </html>
   );
 }
