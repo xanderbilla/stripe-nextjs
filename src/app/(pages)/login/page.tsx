@@ -31,7 +31,7 @@ export default function page({}: Props) {
           </button>
         </form>
         <div className="py-4">
-          Don't have an account?{" "}
+          Don&rsquo;t have an account?{" "}
           <Link href="/register" className="text-blue-500 font-medium">
             Create one
           </Link>
