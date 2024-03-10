@@ -14,18 +14,9 @@
 - **Delete:** Enables users to delete existing resources by sending a DELETE request to the appropriate endpoint.
 
 
-## API Reference
+## API Reference & Deployment
 
-- [MongoDB REST API]()
-
-
-## Deployment
-
-To deploy this project run
-
-```bash
-  npm run deploy
-```
+* [Stripe with NextJS](https://github.com/xanderbilla/next-crud-app/blob/Stripe-Project/blob/Projects/Stripe%20Project.md)
 
 
 ## Authors
