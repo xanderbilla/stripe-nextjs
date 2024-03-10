@@ -18,7 +18,7 @@ export default function Cart({}: Props) {
 
   const handleCheckout = async () => {
     setLoading(true);
-    await fetch("/api/checkout", {
+    await fetch(process.env.CHECKOUT_API || "/api/checkout", {
       method: "POST",
       body: JSON.stringify({ products: cart }),
     })

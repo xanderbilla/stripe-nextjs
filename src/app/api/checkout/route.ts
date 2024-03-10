@@ -61,8 +61,8 @@ export const POST = async (req: NextRequest) => {
         // payment_method_types: ["card"],
         line_items: stripeItems,
         mode: "payment",
-        success_url: process.env.STRIPE_SUCCESS_URL,
-        cancel_url: process.env.STRIPE_CANCEL_URL,
+        success_url: process.env.STRIPE_SUCCESS_URL || "http://localhost:3000/success",
+        cancel_url: process.env.STRIPE_CANCEL_URL || "http://localhost:3000/cancel",
     });
 
   return NextResponse.json({ url: session.url});
