@@ -10,13 +10,6 @@ export default function Home() {
         <div className="text-lg md:text-2xl">Welcome! to the Journey on</div>
         <div className="flex flex-col md:flex-row items-center justify-center py-4 md:py-0 gap-2 md:gap-4">
           <Image className=""
-            src="/img/auth-logo.png"
-            alt="Auth Logo"
-            width={60}
-            height={300}
-          />
-          <span className="md:block hidden text-xl">➕</span>
-          <Image className=""
             src="/img/next-logo.png"
             alt="Next Logo"
             width={150}
