@@ -17,8 +17,8 @@ export default function Home() {
           />
           <span className="md:block hidden text-xl">➕</span>
           <Image className=""
-            src="/img/mongo-logo.png"
-            alt="Mongo Logo"
+            src="/img/stripe-logo.png"
+            alt="Stripe Logo"
             width={200}
             height={300}
           />

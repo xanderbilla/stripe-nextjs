@@ -21,7 +21,7 @@ export default function NavMobile({ links }: Props) {
           ))}
         </div>
         <div className="border-t py-4 w-full flex items-center justify-center gap-2">
-          <UserNav/>
+          {/* <UserNav/> */}
         </div>
       </div>
     </div>

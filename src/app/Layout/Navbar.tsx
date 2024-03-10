@@ -13,7 +13,7 @@ export default function Navbar({}: Props) {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "Dashboard", href: "/dashboard" },
+    { name: "Shop", href: "/shop" },
   ];
 
   const handleNav = () => {
@@ -38,7 +38,7 @@ export default function Navbar({}: Props) {
             ))}
           </div>
         </div>
-        <UserNav/>
+        {/* <UserNav/> */}
         </div>
       </div>
       <div className="md:hidden w-full min-h-16 text-md px-4 flex items-center justify-between border-b">

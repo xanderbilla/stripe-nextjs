@@ -20,6 +20,9 @@ export default function Footer({}: Props) {
         ))}
       </div>
       <div className="w-full flex items-center justify-center text-center">
+        A Project by - {"  "} <Link href="https://xanderbilla.com" className="text-indigo-950" target="_blank">Xander Billa</Link>
+      </div>
+      <div className="w-full flex items-center justify-center text-center">
         Copyright &copy; {new Date().getFullYear()} | All Rights Reserved
       </div>
     </div>

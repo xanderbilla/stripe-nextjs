@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Layout/Navbar";
 import Footer from "./Layout/Footer";
+import { CartProvider } from "./components/CartContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,9 +20,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-sans ${inter.className}`}>
-        <Navbar/>
-        <div className="min-h-[calc(100vh-10rem)] md:min-h-[calc(100vh-12rem)] mx-auto max-5xl font-sans">{children}</div>
-        <Footer/>
+        <CartProvider>
+          <>
+            <Navbar />
+            <div className="min-h-[calc(100vh-10rem)] md:min-h-[calc(100vh-12rem)] mx-auto max-5xl font-sans">
+              {children}
+            </div>
+            <Footer />
+          </>
+        </CartProvider>
       </body>
     </html>
   );
