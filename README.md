@@ -1,25 +1,27 @@
 
 ![Logo](https://i.imgur.com/eMfjSo3.png)
 
+# 💳 Test REST API with Stripe  
 
-# NextJs REST API 
- 
- This repository contains a Next.js 14 REST API application. It provides a comprehensive solution for building CRUD (Create, Read, Update, Delete) operations using Next.js framework and RESTful API architecture.
+This repository was created while learning **Stripe API** integration with a **REST API**. It serves as a test project for handling payments and transactions using Stripe.  
 
-## Basic Features
+## 📌 Features  
 
-- **Create:** Allows users to create new resources by sending a POST request to the appropriate endpoint.
-- **Read:** Enables users to retrieve existing resources by sending a GET request to the appropriate endpoint.
-- **Update:** Allows users to update existing resources by sending a PUT or PATCH request to the appropriate endpoint.
-- **Delete:** Enables users to delete existing resources by sending a DELETE request to the appropriate endpoint.
+- 💰 **Payment Processing with Stripe**  
+- 🔄 **Webhook Handling**  
+- 🛍️ **Test Transactions & Checkout Flow**  
+- 🔐 **Secure API Endpoints**  
 
+## 📌 Tech Stack  
 
-## API Reference & Deployment
+- **Backend:** Node.js / Express / Spring Boot (Specify if needed)  
+- **Payments:** Stripe API  
 
-* [Stripe with NextJS](https://github.com/xanderbilla/next-crud-app/blob/Stripe-Project/blob/Projects/Stripe%20Project.md)
+## 📌 Project Status  
 
+✅ **Learning Project** – This repository is for testing and learning purposes.  
 
-## Authors
+## 👨‍💻 Author  
 
 - [@xanderbilla](https://www.github.com/xanderbilla)
 
